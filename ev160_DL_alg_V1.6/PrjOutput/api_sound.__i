@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Libraries\core -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\core\temp -I ..\User\driver -I ..\User\api -I ..\User\main -I ..\User\alg -I ..\User\App
+-I.\RTE\_Target_1
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD
+-o ..\prjoutput\api_sound.o --omf_browse ..\prjoutput\api_sound.crf --depend ..\prjoutput\api_sound.d "..\User\api\api_sound.c"
